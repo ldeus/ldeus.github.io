@@ -8,7 +8,7 @@ subtitle: ''
 description: ''
 keywords:
 author: ldeus
-language: zh-Hans
+language: zh-CN
 timezone: ''
 
 # URL
@@ -105,3 +105,6 @@ deploy:
   type: 'git'
   repo: git@github.com:ldeus/ldeus.github.io.git
   branch: master
+
+admin:
+  deployCommand: './hexo-deploy.sh'
