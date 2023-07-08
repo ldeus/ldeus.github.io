@@ -11,6 +11,34 @@ author: ldeus
 language: zh-CN
 timezone: ''
 
+# 博文压缩
+neat_enable: true
+# 压缩html
+neat_html:
+  enable: true
+  exclude:
+# 压缩css  
+neat_css:
+  enable: true
+  exclude:
+    - '**/*.min.css'
+# 压缩js
+neat_js:
+  enable: true
+  mangle: true
+  output:
+  compress:
+  exclude:
+    - '**/*.min.js'
+    - '**/jquery.fancybox.pack.js'
+    - '**/index.js'
+    - '**/fireworks.js'
+# SEO
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
+
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: http://www.ldeus.com
@@ -28,7 +56,7 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render: README.md
+skip_render: ['README.md' , 'robots.txt']
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -106,5 +134,5 @@ deploy:
   repo: git@github.com:ldeus/ldeus.github.io.git
   branch: master
 
-admin:
-  deployCommand: './hexo-deploy.sh'
+#admin:
+#  deployCommand: './hexo-deploy.sh'
