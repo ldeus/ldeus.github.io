@@ -103,7 +103,7 @@ creative_commons:
 scheme: Gemini
 
 # Dark Mode
-darkmode: true
+darkmode: false
 
 
 # ---------------------------------------------------------------
@@ -124,7 +124,7 @@ menu:
   #schedule: /schedule/ || fa fa-calendar
   #sitemap: /sitemap.xml || fa fa-sitemap
   #commonweal: /404/ || fa fa-heartbeat
-
+  links: /links/ || fa fa-link
 # Enable / Disable menu icons / item badges.
 menu_settings:
   icons: true
@@ -201,7 +201,20 @@ links_settings:
   layout: block
 
 links:
-  iseki blog: https://blog.iseki.space/
+  #iseki blog: https://blog.iseki.space/
+
+# 友情链接
+mylinks:
+  - nickname: ldeus
+    avatar: https://dn-qiniu-avatar.qbox.me/avatar/c4556090fb12d7606759d269fa90cb8f?s=320    # 头像地址
+    site: https://www.ldeus.com #友链地址
+    info: 保持热爱，奔赴山海
+
+  - nickname: iseki blog
+    avatar: https://avatars.githubusercontent.com/u/13687964?v=4
+    site: https://blog.iseki.space
+    info: 没什么，只是个备忘录
+
 
 # Table of Contents in the Sidebar
 # Front-matter variable (unsupport wrap expand_all).
