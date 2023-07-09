@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://www.ldeus.com/2023/07/07/New-World/</loc>
+    <loc>https://www.ldeus.com/2023/07/07/New-World/</loc>
     
     <lastmod>2023-07-09</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>http://www.ldeus.com/links/index.html</loc>
+    <loc>https://www.ldeus.com/links/index.html</loc>
     
     <lastmod>2023-07-09</lastmod>
     
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>http://www.ldeus.com/2022/11/02/Docker-install/</loc>
+    <loc>https://www.ldeus.com/2022/11/02/Docker-install/</loc>
     
     <lastmod>2023-07-07</lastmod>
     
@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>http://www.ldeus.com/2022/10/26/hello-world/</loc>
+    <loc>https://www.ldeus.com/2022/10/26/hello-world/</loc>
     
     <lastmod>2023-07-07</lastmod>
     
@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>http://www.ldeus.com/about/index.html</loc>
+    <loc>https://www.ldeus.com/about/index.html</loc>
     
     <lastmod>2023-07-07</lastmod>
     
@@ -48,7 +48,7 @@
   
 
   <url>
-    <loc>http://www.ldeus.com/</loc>
+    <loc>https://www.ldeus.com/</loc>
     <lastmod>2023-07-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
