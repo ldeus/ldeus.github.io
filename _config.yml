@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 梦之界
+title: 梦想の世界
 subtitle: ''
 description: ''
-keywords:
+keywords: 二次元,美少女,动漫,网络,AI
 author: ldeus
 language: zh-CN
 timezone: ''
@@ -134,5 +134,5 @@ deploy:
   repo: git@github.com:ldeus/ldeus.github.io.git
   branch: master
 
-#admin:
-#  deployCommand: './hexo-deploy.sh'
+admin:
+  deployCommand: './hexo-deploy.sh'

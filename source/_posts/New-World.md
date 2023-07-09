@@ -43,7 +43,7 @@ rm -rf themes/next/.git
 
 #### 主题设定
 ##### 选择 Scheme
-修改 <span id="inline-purple">主题配置文件</span> `themes/next/_config.yml`。
+<div style="text-align:left">修改 <span id="inline-purple">主题配置文件</span> `themes/next/_config.yml`。</div>
 
 ```
 # Scheme Settings
@@ -54,7 +54,7 @@ rm -rf themes/next/.git
 `scheme: Gemini`
 ```
 ##### 设置头像
-编辑 <span id="inline-purple">主题配置文件</span> `themes/next/_config.yml`，修改字段 `avatar`， 值设置成头像的链接地址。
+<div style="text-align:left">编辑 <span id="inline-purple">主题配置文件</span> `themes/next/_config.yml`，修改字段 `avatar`， 值设置成头像的链接地址。</div>
 
 ```
 # Sidebar Avatar
@@ -68,7 +68,7 @@ avatar:
 
 ```
 ##### 设置友链
-编辑 <span id="inline-purple">主题配置文件</span> `themes/next/_config.yml`,修改字段 `links`，如下所示。
+<div style="text-align:left">编辑 <span id="inline-purple">主题配置文件</span> `themes/next/_config.yml`,修改字段 `links`，如下所示。</div>
 ```
 # Blog rolls
 links_settings:

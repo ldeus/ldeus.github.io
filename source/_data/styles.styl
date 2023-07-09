@@ -236,3 +236,45 @@ border-top-color: #9954bb;
 .vpower.txt-right {
   display: none;
 }
+//背景图片设置
+body {
+    //background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background: linear-gradient(to bottom, #654ea3, #eaafc8);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    animation: gradientBG 15s ease infinite;
+}
+//文章透明度设置
+.post-block {
+  background: rgba(255,255,255,0.9);
+}
+//侧边框的透明度设置
+.sidebar {
+  background-color: transparent;
+  opacity: 0.9;
+}
+//菜单栏的透明度设置
+.header-inner {
+  background: rgba(255,255,255,0.9);
+}
+//搜索框（local-search）的透明度设置
+.popup {
+  opacity: 0.9;
+}
+//评论区透明度
+.comments {
+	background: rgba(255,255,255,0.7) none repeat scroll !important;
+}
+
+@keyframes gradientBG {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
