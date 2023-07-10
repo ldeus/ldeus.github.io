@@ -6,3 +6,6 @@ node_modules/
 public/
 .deploy*/
 _multiconfig.yml
+_config.yml
+themes/next/_config.yml
+replace_secrets.sh
